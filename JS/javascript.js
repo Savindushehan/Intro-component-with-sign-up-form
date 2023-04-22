@@ -17,11 +17,12 @@ var Error4=document.getElementById("error4");
 
 
 Submit.onclick=function(){
-    console.log("1");
+    
     if(!Email.value.match(pattern)){
         Error3.style.display="block";
         Image3.style.display="block";
-        console.log("2");
+        Email.style.BorderColor="red";
+       
     }else{
 
     }

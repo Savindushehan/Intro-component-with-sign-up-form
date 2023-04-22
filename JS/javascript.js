@@ -17,15 +17,36 @@ var Error4=document.getElementById("error4");
 
 
 Submit.onclick=function(){
+    console.log("1");
     if(!Email.value.match(pattern)){
-        Image1.style.display="block";
-        Image2.style.display="block";
-        Image3.style.display="block";
-        Image4.style.display="block";
-        Error1.style.display="block";
-        Error2.style.display="block";
         Error3.style.display="block";
-        Error4.style.display="block";
+        Image3.style.display="block";
+        console.log("2");
+    }else{
+
     }
-   
+     if(Firstname.value===""){
+        console.log("5");
+        Error1.style.display="block";
+        Image1.style.display="block";
+    }else{
+
+    }
+        if(Lastname.value===""){
+        Error2.style.display="block";
+        Image2.style.display="block";
+    }else{
+
+    }
+    if(Password.value===""){
+        Error4.style.display="block";
+        Image4.style.display="block";
+    }
+    else{
+
+    }
+
 }
+
+
+

@@ -197,6 +197,7 @@ h3{
     }
     #firstname,#lastname,#email,#password{
         font-size: 1rem;
+        width: 90%;
     }
     #submit-btn{
         font-size: 0.9rem;
